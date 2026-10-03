@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 PATH = Path(__file__).resolve().parent.parent / "data" / "memory.json"
-EMPTY = {"profile": [], "goals": [], "commitments": [], "notes": ""}
+EMPTY = {"profile": [], "goals": [], "practices": [], "commitments": [], "notes": ""}
 
 
 def load() -> dict:
